@@ -1,0 +1,11 @@
+name: WardenSpawn
+version: '${project.version}'
+main: com.tqqn.wardenspawn.WardenSpawnMain
+api-version: 1.19
+authors: [Tqqn]
+description: WardenSpawn Plugin
+commands:
+  spawnwarden:
+    description: Item Command
+    usage: /<command>
+    permission: wardenspawn.spawnwarden
